@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sign in</title>
+	<link rel="stylesheet" type="text/css" href="index.css" />
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<div id = "mainbox">
+		<h1>用户注册</h1>
+		<form id = "message" action="http://localhost:8000/" method="post">
+			<div id = "inputs">
+				<span>用户名：</span><input id = "username" name = "username" type="text">
+				<p>用户名6~18位英文字母、数字或下划线，必须以英文字母开头</p>
+				<span>学号：</span><input id = "idnumber" name = "idnumber" type="text">
+				<p>学号8位数字，不能以0开头</p>
+				<span>电话：</span><input id = "phone" name = "phone" type="text">
+				<p>电话11位数字，不能以0开头</p>
+				<span>邮箱：</span><input id = "email" name = "email" type="text">
+				<p>邮箱不能包含数字</p>
+			</div>
+			<div id = "buttons">
+				<button type="reset" id = "resetinputs">重置</button>
+				<button type="submit" id = "submitbutton">提交</button>
+			</div>
+		</form>
+		<div id = "error">Error</div>
+	</div>
+	
+</body>
+</html>

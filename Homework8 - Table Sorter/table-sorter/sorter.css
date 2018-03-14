@@ -1,0 +1,29 @@
+th {
+	background-color: #031A80;
+	text-align: left;
+	color: white;
+	font-weight: bold;
+	font-family: Arial;
+	padding: 3px;
+}
+th, td {
+	border: #B3B3B3 solid 1px;
+	font-family: Arial;
+}
+table {
+  border-collapse:collapse;
+}
+tr.alternate td {
+  background-color: #DDDDDD;
+}
+img {
+	float: right;
+}
+.click {
+	background-color: #5CACEE;
+	text-align: left;
+	color: white;
+	font-weight: bold;
+	font-family: Arial;
+	padding: 3px;
+}

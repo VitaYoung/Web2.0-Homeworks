@@ -1,0 +1,228 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+span {
+	font-family: Arial, serif;
+	position: relative;
+}
+#at-plus-container {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	margin: auto;
+	bottom: 20%;
+	left: 0px;
+	right: 0px;
+	z-index: 1;
+	background: url("assets/images/atplus_white.png") no-repeat center;
+	background-color: rgba(151,156,211,1);
+	border-radius: 50%;
+}
+.info {
+	background-color: rgba(126,126,126,1);
+	opacity: 0;
+	width:35px;
+	height: 35px;
+	z-index: 0;
+	border-radius: 50%;
+	overflow: hidden;
+}
+#button:hover .info {
+	width: 120px;
+	height: 120px;
+	opacity: 1;
+	border-radius: 50%;
+	-webkit-transform: translate(-42px, -135px) scale(1);
+    -moz-transform: translate(-42px, -135px) scale(1);
+    -ms-transform: translate(-42px, -135px) scale(1);
+    -o-transform: translate(-42px, -135px) scale(1);
+    transform: translate(-42px, -135px) scale(1);
+}
+.info ul {
+	position: relative;
+	text-align: center;
+	padding: 10px 0 0 0;
+}
+.mine {
+	display: inline;
+}
+.posted span {
+	padding-right: 12px;
+}
+.posted span, .like span {
+	bottom: 5px;
+	color: #29d696;
+	font-size: 14pt;
+	padding-left: 5px;
+	font-weight: bold;
+}
+.comment span {
+	color: white;
+	font-size: 25pt;
+	padding-left: 5px;
+	bottom: 3px;
+}
+.user span {  
+	color: white;
+	font-size: 14pt;
+	padding-left: 5px;
+	bottom: 3px;
+}
+ul {
+	list-style: none;
+}
+.button {
+	position: absolute;
+	top: 0px;
+    opacity: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(126,126,126,1);
+}
+#button:hover .button {
+	opacity: 1;
+}
+.mask {
+	background: url("assets/images/nomask.png") no-repeat center;
+	background-color: rgba(126,126,126,1);
+}
+#button:hover .mask {
+    -webkit-transform: translate(-62px, -36px);
+    -moz-transform: translate(-62px, -36px);
+    -ms-transform: translate(-62px, -36px);
+    -o-transform: translate(-62px, -36px);
+    transform: translate(-62px, -36px);
+}
+.info, .button, #button .unread, .apb {
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.mask, .history, .message, .setting, .info, .sign, {
+	-webkit-transition-delay: 0.3s;
+    -moz-transition-delay: 0.3s;
+    -ms-transition-delay: 0.3s;
+    -o-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+#button:hover .mask, #button:hover .history, #button:hover .message, 
+#button:hover .setting, #button:hover .info, #button:hover .sign, 
+#button:hover .apb, #button:hover .icon {
+	-webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+}
+.history {
+	background: url("assets/images/history.png") no-repeat center;
+	background-color: rgba(126,126,126,1);
+}
+#button:hover .history {
+    -webkit-transform: translate(-72px, 2px);
+    -moz-transform: translate(-72px, 2px);
+    -ms-transform: translate(-72px, 2px);
+    -o-transform: translate(-72px, 2px);
+    transform: translate(-72px, 2px);
+}
+.message {
+	background: url("assets/images/message.png") no-repeat center;
+	background-color: rgba(126,126,126,1);
+}
+#button:hover .message {
+    -webkit-transform: translate(-58px, 41px);
+    -moz-transform: translate(-58px, 41px);
+    -ms-transform: translate(-58px, 41px);
+    -o-transform: translate(-58px, 41px);
+    transform: translate(-58px, 41px);
+}
+.unread {
+	font-size: 10pt;
+	opacity: 0;
+    color: #ffffff;
+    float: right;
+    width: 16px;
+    height: 16px;
+    font-weight: bold;
+    font-family: "Estrangelo Edessa",serif;
+    padding-left: 1px;
+    padding-top: 1px;
+    margin-right: -4px;
+    margin-top: -2px;
+    border-radius: 50%;
+    text-align: center;
+    background: #FE3A3C;
+}
+#button:hover .unread {
+	opacity: 1;
+}
+.setting {
+    background: url("assets/images/setting.png") no-repeat center;
+    background-color: rgba(126,126,126,1);
+}
+#button:hover .setting {
+    -webkit-transform: translate(-26px, 66px);
+    -moz-transform: translate(-26px, 66px);
+    -ms-transform: translate(-26px, 66px);
+    -o-transform: translate(-26px, 66px);
+    transform: translate(-26px, 66px);
+}
+.sign {
+    background: url("assets/images/signin.png") no-repeat center;
+    background-color: rgba(126,126,126,1);
+}
+#button:hover .sign {
+    -webkit-transform: translate(17px, 65px);
+    -moz-transform: translate(17px, 65px);
+    -ms-transform: translate(17px, 65px);
+    -o-transform: translate(17px, 65px);
+    transform: translate(17px, 65px);
+}
+.apb {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    opacity: 0;
+    background-color: rgba(48, 63, 159, 1);
+}
+#button:hover .apb {
+    opacity: 1;
+    -webkit-transform: scale(1.45);
+    -moz-transform: scale(1.45);
+    -ms-transform: scale(1.45);
+    -o-transform: scale(1.45);
+    transform: scale(1.45);
+}
+.apb, .icon {
+	-webkit-transition-delay: 0.8s;
+    -moz-transition-delay: 0.8s;
+    -ms-transition-delay: 0.8s;
+    -o-transition-delay: 0.8s;
+    transition-delay: 0.8s;
+}
+.icon {
+    left: 0;
+    right: 0;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background: url("assets/images/atplus_white.png") no-repeat center;
+    background-size: 28px 20px;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+}
+#button:hover .icon {
+    opacity: 1;
+    background: url("assets/images/atplus_green.png") no-repeat center;
+    background-size: 28px 20px;
+}

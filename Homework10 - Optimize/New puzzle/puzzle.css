@@ -1,0 +1,67 @@
+#main-container {
+	width: 556px;
+	height: 556px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-color: white;
+}
+body {
+	background-color: #71C671;
+	background: url("mainbackground.gif");
+}
+h1 {
+	text-align: center;
+	color: #757575;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 40pt;
+}
+#restart {
+	margin-top: 30px;
+	position: absolute;
+	left: 44%;
+	width: 200px;
+	height: 70px;
+	border: 0px;
+	background-color: #87CEFA;
+	font-size: 30pt;
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;
+}
+.block {
+	position: absolute;
+	width: 137px;
+	height: 137px;
+	border: 1px solid grey;
+	background-image: url("background.jpg");
+	border-radius: 5px;
+	transition: all 0.3s;
+}
+.block:hover {
+	transform: scale(1.05, 1.05);
+	z-index: 5;
+}
+.row2 {top: 139px;}
+.row3 {top: 278px;}
+.row4 {top: 417px;}
+.col2 {left: 139px;}
+.col3 {left: 278px;}
+.col4 {left: 417px;}
+#block1-1 {background-position: 0 0;}
+#block1-2 {background-position: 33.3% 0;}
+#block1-3 {background-position: 66.6% 0;}
+#block1-4 {background-position: 100% 0;}
+#block2-1 {background-position: 0 33.3%}
+#block2-2 {background-position: 33.3% 33.3%;}
+#block2-3 {background-position: 66.6% 33.3%;}
+#block2-4 {background-position: 100% 33.3%;}
+#block3-1 {background-position: 0 66.6%;}
+#block3-2 {background-position: 33.3% 66.6%;}
+#block3-3 {background-position: 66.6% 66.6%;}
+#block3-4 {background-position: 100% 66.6%;}
+#block4-1 {background-position: 0 100%;}
+#block4-2 {background-position: 33.3% 100%;}
+#block4-3 {background-position: 66.6% 100%;}
+#block4-4 {display: none;}

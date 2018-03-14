@@ -1,0 +1,80 @@
+h1, h2 {
+	text-align: center;
+	font-family: "Arial";
+	font-weight: bold;
+}
+body {
+	background: url("background.jpg");
+}
+#info-box {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	width: 500px;
+	height: 100px;
+	top: 50px;
+}
+#time-num {
+	float: right;
+}
+#score-num {
+	float: right;
+}
+#start-stop {
+	width: 200px;
+	height: 40px;
+	font-size: 10pt;
+	float: left;
+	margin-right: 50px;
+	background-color: #87CEFA;
+	color: white;
+	font-size: 10pt;
+	font-weight: bold;
+}
+#time {
+	width: 200px;
+	height: 40px;
+	float: left;
+	padding-top: 10px;
+}
+#status {
+	width: 200px;
+	height: 40px;
+	float: left;
+	margin-right: 50px;
+}
+#score {
+	width: 200px;
+	height: 40px;
+	float: left;
+}
+#play-box {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	left: 340px;
+	width: 730px;
+	height: 445px;
+	position: absolute;
+	padding-top: 10px;
+	top: 240px;
+	background-color: white;
+	opacity: 0.8;
+}
+.hole {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 1px solid grey;
+	margin: 5px;
+	float: left;
+}
+#instruction {
+	width: 800px;
+	height: 400px;
+	float: left;
+	left: -140px;
+	top: 500px;
+	position: relative;
+}

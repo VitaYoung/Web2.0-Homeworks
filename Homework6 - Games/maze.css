@@ -1,0 +1,134 @@
+#main-maze {
+	width: 500px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1, h2 {
+	text-align: center;
+	z-index: -2;
+	font-family: "Arial";
+	font-weight: bold;
+}
+#result {
+	text-align: center;
+	z-index: -2;
+	font-family: Arial;
+	font-size: 20pt;
+	font-weight: bold;
+}
+.block {
+	background-color: #DBDBDB;
+}
+.ready {
+	color: white;
+}
+.changecursor {
+	cursor: pointer;
+}
+.blank {
+	color: white;
+}
+.show {
+	color: black;
+}
+#lefttop {
+	border:1px solid black;
+	position: absolute;
+	width: 150px;
+	height: 250px;
+	z-index: 0;
+}
+#middletop {
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	position: relative;
+	width: 200px;
+	height: 70px;
+	left: 151px;
+	z-index: 1;
+}
+#righttop {
+	border:1px solid black;
+	position: relative;
+	width: 149px;
+	height: 250px;
+	left: 350px;
+	top: -72px;
+	z-index: 0;
+}
+#bottom {
+	border: 1px solid black;
+	position: relative;
+	width: 500px;
+	height: 77px;
+	z-index: 0;
+}
+#middle {
+	border: 1px solid black;
+	position: relative;
+	border-bottom: 0px;
+	height: 190px;
+	width: 80px;
+	top: -268px;
+	left: 210px;
+	z-index: 1;
+}
+#start {
+	height: 64px;
+	width: 52px;
+	border: 1px solid black;
+	position: relative;
+	top:-339px;
+	background-color: #3CB371;
+	color: white;
+	line-height: 62px;
+	font-size: 50pt;
+	padding-left: 18px;
+	font-family: "Candara";
+	font-weight: bold;
+}
+#end {
+	height: 64px;
+	width: 52px;
+	border: 1px solid black;
+	position: relative;
+	left: 430px;
+	top: -405px;
+	background-color: #FF6A6A;
+	color: white;
+	line-height: 62px;
+	font-size: 50pt;
+	padding-left: 18px;
+	font-family: "Candara";
+	font-weight: bold;
+}
+#explanation {
+	width: 600px;
+	height: 100px;
+	font-size: 10pt;
+	text-align: center;
+	position: relative;
+	top: 20px;
+	left: 410px;
+	font-family: Arial;
+	font-size: 13pt;
+	font-weight: bold;
+}
+#example {
+	background-color: #DBDBDB;
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	position: relative;
+	border: 1px solid black;
+	left: 660px;
+}
+#goodluck {
+	position: relative;
+	top: 20px;
+	left: 420px;
+	font-family: Arial;
+	font-size: 15pt;
+	font-weight: bold;
+}

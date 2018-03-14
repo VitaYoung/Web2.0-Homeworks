@@ -1,0 +1,115 @@
+body {
+	background-image: url("background.png");
+	font-size: 8pt;
+	font-family: "Verdana", "Tahoma", sans-serif;
+	margin: 0px;
+	padding: 0px;
+
+}
+#banner {
+	text-align: center;
+	background-image: url("bannerbackground.png");
+	height: 50px;
+}
+h1 {
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: "Tahoma", "Verdana", sans-serif;
+	position: center;
+}
+#pagebody {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 800px;
+	border: 4px gray solid;
+}
+#generaloverview {
+	width: 250px;
+	float: right;
+	background-color: #A2B964;
+	font-family: "Arial", sans-serif;
+	font-size: 8pt;
+}
+#left-centralsection {
+	width: 550px;
+}
+#rootenpicture, #Rotten {
+	height: 83px;
+}
+#Rotten {
+	width: 550px;
+	background-image: url("rottenbackground.png");
+}
+#rottenpercent {
+	font-size: 48pt;
+	color: red;
+	font-weight: bold;
+	vertical-align: top;
+}
+#rottenletters {
+	font-size: 8pt;
+	color: white;
+	vertical-align: middle;
+	position: absolute;
+	top:55px;
+}
+#special {
+	padding-bottom: 17px;
+}
+#firsttitle {
+	padding-top: 0px;
+}
+.comment {
+	border: 2px solid gray;
+	font-size: 8pt;
+	font-weight: bold;
+	background-color:  #E1D697;
+	padding: 8px;
+}
+#rightcol, #leftcol {
+	width: 47%;
+	margin: 2%;
+}
+#rightcol {
+	float: right;
+	margin-left: 1%;
+}
+#leftcol {
+	float: left;
+	margin-right: 1%;
+}
+#end {
+	clear: right;
+	background-color: #A2B964;
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+.commentpicture {
+	float: left;
+	padding-right: 5px;
+}
+.userpicture {
+	float: left;
+	padding-right: 5px;
+}
+.publication {
+	font-style: italic;
+}
+.user {
+	padding-bottom: 3em;
+}
+dl {
+	padding: 10px;
+}
+dt {
+	font-weight: bold;
+	padding-top: 1em;
+}
+#links {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+}

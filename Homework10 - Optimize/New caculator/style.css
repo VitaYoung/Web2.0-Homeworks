@@ -1,0 +1,52 @@
+#main-box {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	width: 500px;
+	height: 430px;
+	border: solid 1px black;
+	background-color: #2B2B2B;
+	border-radius: 15px 15px 15px 15px;
+}
+p {
+	text-align: center;
+	font-size: 30pt;
+	font-weight: bold;
+}
+#output {
+	width: 460px;
+	height: 40px;
+	position: relative;
+	margin-left: 18px;
+	margin-right: 14px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-size: 22pt;
+	text-align: right;
+}
+.button {
+	width: 96px;
+	height: 55px;
+	float: left;
+	margin: 12px;
+	margin-bottom: 0px;
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: bottom;
+	background-color: #708090;
+	color: white;
+	border-radius: 5px 5px 5px 5px;
+}
+#divide-button, #plus-button, #subtract-button, #multiply-button {
+	background-color: #EE7942;
+}
+#seven, #four, #one, #zero, #left-bracket {
+	margin-left: 10px;
+	font-weight: bold;
+}
+#equal-button, #clear-button {
+	background-color: #EE6363;
+}
+body {
+	background-color: #EDEDED;
+}
